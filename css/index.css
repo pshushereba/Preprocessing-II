@@ -293,4 +293,21 @@ img {
     width: 100%;
     padding-bottom: 5%;
   }
+  .home .content-destination {
+    width: 95%;
+    padding: 0 2.5%;
+  }
+  .home .content-pick {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .content-pick .destination {
+    width: 80%;
+    padding: 0 5%;
+    margin: 2.5% 5%;
+  }
+  .home .content-pick .destination button {
+    width: 85%;
+  }
 }
