@@ -260,3 +260,12 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination button {
+  background-color: #00807F;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 125px;
+  height: 30px;
+  color: white;
+}
