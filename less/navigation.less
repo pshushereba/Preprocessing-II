@@ -1,5 +1,35 @@
 // Navigation Styles here
 
-header {
-    color: dodgerblue;
+.flexbox-setup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-content {
+    .flexbox-setup();
+    border-bottom: 2px dashed #C0C0C0;
+    
+    h1 {
+        width: 45%;
+        padding-left: 2.5%;
+        padding-top: 1.25%;
+        margin-left: 5%;
+        align-items: baseline;
+    }
+    
+    nav {
+        width: 35%;
+        padding: 2.5%;
+        margin-left: 6.5%;
+        .flexbox-setup();
+        justify-content: space-between;
+        
+        a {
+            align-items: center;
+            font-size: 1.4rem;
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+
 }
